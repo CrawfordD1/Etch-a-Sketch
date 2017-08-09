@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+
+
+body{
+  margin: 0;
+  background-color: firebrick;
+}
+
+#main-canvas{
+  /*border: 1px solid black;*/
+  position: fixed; /* or absolute */
+  top: 50px;
+  left: 275px;
+  z-index:20;
+  background-color: rgba(0, 0, 0, 0.1)
+  background-image: url('etchScreen.png');
+}
+
+background-image{
+  position: absolute;
+  z-index: 1;
+}
+
+#shake-button{
+  border: 5px solid darkred;
+  font-family: 'Indie Flower', cursive;
+  font-size: 35px;
+  position: fixed;
+  top: 350px;
+  height: 60px;
+  width: 150px;
+  color: orange;
+  background: rgb(202, 60, 60);
+}
+
+
+
+
